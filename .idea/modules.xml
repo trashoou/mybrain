@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_04/code/code.iml" filepath="$PROJECT_DIR$/basic/lesson_04/code/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cohort30.iml" filepath="$PROJECT_DIR$/cohort30.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_07/if-else-practice/if-else-practice.iml" filepath="$PROJECT_DIR$/basic/lesson_07/if-else-practice/if-else-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_01/lesson_01.iml" filepath="$PROJECT_DIR$/basic/lesson_01/lesson_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_02/lesson_02.iml" filepath="$PROJECT_DIR$/basic/lesson_02/lesson_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_03/lesson_03.iml" filepath="$PROJECT_DIR$/basic/lesson_03/lesson_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_5/lesson_05.iml" filepath="$PROJECT_DIR$/basic/lesson_5/lesson_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_06/lesson_06.iml" filepath="$PROJECT_DIR$/basic/lesson_06/lesson_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_07/lesson_07.iml" filepath="$PROJECT_DIR$/basic/lesson_07/lesson_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_8/lesson_08.iml" filepath="$PROJECT_DIR$/basic/lesson_8/lesson_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_09/lesson_09.iml" filepath="$PROJECT_DIR$/basic/lesson_09/lesson_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_10/lesson_10.iml" filepath="$PROJECT_DIR$/basic/lesson_10/lesson_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_11/lesson_11.iml" filepath="$PROJECT_DIR$/basic/lesson_11/lesson_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_12/lesson_12.iml" filepath="$PROJECT_DIR$/basic/lesson_12/lesson_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_13/lesson_13.iml" filepath="$PROJECT_DIR$/basic/lesson_13/lesson_13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_14/lesson_14.iml" filepath="$PROJECT_DIR$/basic/lesson_14/lesson_14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_15/lesson_15.iml" filepath="$PROJECT_DIR$/basic/lesson_15/lesson_15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_16/lesson_16.iml" filepath="$PROJECT_DIR$/basic/lesson_16/lesson_16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_17/lesson_17.iml" filepath="$PROJECT_DIR$/basic/lesson_17/lesson_17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_18/lesson_18.iml" filepath="$PROJECT_DIR$/basic/lesson_18/lesson_18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_19/lesson_19.iml" filepath="$PROJECT_DIR$/basic/lesson_19/lesson_19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_20/lesson_20.iml" filepath="$PROJECT_DIR$/basic/lesson_20/lesson_20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_21/lesson_21.iml" filepath="$PROJECT_DIR$/basic/lesson_21/lesson_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_22/lesson_22.iml" filepath="$PROJECT_DIR$/basic/lesson_22/lesson_22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_23/lesson_23.iml" filepath="$PROJECT_DIR$/basic/lesson_23/lesson_23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_24/lesson_24.iml" filepath="$PROJECT_DIR$/basic/lesson_24/lesson_24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/notepad/notepad.iml" filepath="$PROJECT_DIR$/basic/notepad/notepad.iml" />
+    </modules>
+  </component>
+</project>
