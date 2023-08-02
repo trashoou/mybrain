@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/baymunic/baymunic.iml" filepath="$PROJECT_DIR$/basic/baymunic/baymunic.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/lesson_04/code/code.iml" filepath="$PROJECT_DIR$/basic/lesson_04/code/code.iml" />
       <module fileurl="file://$PROJECT_DIR$/cohort30.iml" filepath="$PROJECT_DIR$/cohort30.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/lesson_07/if-else-practice/if-else-practice.iml" filepath="$PROJECT_DIR$/basic/lesson_07/if-else-practice/if-else-practice.iml" />
@@ -32,6 +33,12 @@
       <module fileurl="file://$PROJECT_DIR$/basic/lesson_25/lesson_25.iml" filepath="$PROJECT_DIR$/basic/lesson_25/lesson_25.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/lesson_26/lesson_26.iml" filepath="$PROJECT_DIR$/basic/lesson_26/lesson_26.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/lesson_27/lesson_27.iml" filepath="$PROJECT_DIR$/basic/lesson_27/lesson_27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_28/lesson_28.iml" filepath="$PROJECT_DIR$/basic/lesson_28/lesson_28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_29/lesson_29.iml" filepath="$PROJECT_DIR$/basic/lesson_29/lesson_29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_30/lesson_30.iml" filepath="$PROJECT_DIR$/basic/lesson_30/lesson_30.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_31/lesson_31.iml" filepath="$PROJECT_DIR$/basic/lesson_31/lesson_31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_32/lesson_32.iml" filepath="$PROJECT_DIR$/basic/lesson_32/lesson_32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/lesson_33/lesson_33.iml" filepath="$PROJECT_DIR$/basic/lesson_33/lesson_33.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/notepad/notepad.iml" filepath="$PROJECT_DIR$/basic/notepad/notepad.iml" />
     </modules>
   </component>

@@ -1,0 +1,36 @@
+  +--------------------+
+  |       Shape        |
+  +--------------------+
+  | - color: String    |
+  +--------------------+
+  | + Shape(color: String) |
+  | + getColor(): String   |
+  | + getArea(): double    |
+  | + getPerimeter(): double |
+  +--------------------+
+             ^
+             |
+  +--------------------+
+  |      Circle        |
+  +--------------------+
+  | - radius: double   |
+  +--------------------+
+  | + Circle(color: String, radius: double) |
+  | + getRadius(): double  |
+  | + getArea(): double   |
+  | + getPerimeter(): double |
+  +--------------------+
+             ^
+             |
+  +--------------------+
+  |    Rectangle       |
+  +--------------------+
+  | - width: double    |
+  | - height: double   |
+  +--------------------+
+  | + Rectangle(color: String, width: double, height: double) |
+  | + getWidth(): double  |
+  | + getHeight(): double |
+  | + getArea(): double   |
+  | + getPerimeter(): double |
+  +--------------------+
