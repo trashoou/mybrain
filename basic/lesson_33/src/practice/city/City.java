@@ -16,6 +16,11 @@ public class City implements Comparable<City> {
         this.postCode = postCode;
     }
 
+    public City(String name, int population) {
+        this.name = name;
+        this.population = population;
+    }
+
     public String getName() {
         return name;
     }
