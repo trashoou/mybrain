@@ -35,6 +35,7 @@ public class AlbumImpl implements Album{
         System.arraycopy(photos, index, photos, index + 1, size - index); // копируем эл-ты массива от index на 1 место вправо
         photos[index] = photo;
         size++;
+        System.out.println("Фото добавлено!");
         return true;
     }
 
@@ -44,9 +45,11 @@ public class AlbumImpl implements Album{
             if (photos[i].getAlbumId() == albumId && photos[i].getPhotoId() == photoId) {
                 System.arraycopy(photos,i+1,photos,i,size - 1 - i);
                 photos[--size] = null;
+                System.out.println("Фото удалено!");
                 return true;
             }
         }
+        System.out.println("Фото не было найдено.");
         return false;
     }
 
@@ -55,9 +58,11 @@ public class AlbumImpl implements Album{
         for (int i = 0; i < photos.length; i++) {
             if (photos[i].getAlbumId() == albumId && photos[i].getPhotoId() == photoId) {
                 photos[i].setUrl(url);
+                System.out.println("Вы успешно обновили фотографию!");
                 return true;
             }
         }
+        System.out.println("Фото не было найдено.");
         return false;
     }
 
@@ -66,9 +71,11 @@ public class AlbumImpl implements Album{
         Photo pattern = new Photo(albumId, photoId, null, null, null); // создаем объект, с которым сравниваем photo из массива
         for (int i = 0; i < size; i++) {
             if(pattern.equals(photos[i])) {
+                System.out.println(photos[i]);
                 return photos[i];
             }
         }
+        System.out.println("Альбом пуст или не найден!");
         return null;
     }
 
@@ -91,7 +98,26 @@ public class AlbumImpl implements Album{
 
     @Override
     public Photo[] getAllPhotoFromAlbum(int albumId) {
-        return findByPredicate(p -> p.getAlbumId() == albumId);
+        Photo[] result = new Photo[size];
+        int count = 0;
+
+        for (int i = 0; i < size; i++) {
+            Photo photo = photos[i];
+            if (photo != null && photo.getAlbumId() == albumId) {
+                result[count++] = photo;
+            }
+        }
+        if (count == 0) {
+            System.out.println("Альбом пуст или не найден!");
+        }
+
+
+        Photo[] actualResult = new Photo[count];
+        System.arraycopy(result, 0, actualResult, 0, count);
+        for (int i = 0; i < actualResult.length; i++) {
+            System.out.println(actualResult[i]);
+        }
+        return actualResult;
     }
 
 
@@ -113,6 +139,7 @@ public class AlbumImpl implements Album{
                 count++;
             }
         }
+        System.out.println(photosBetweenDates);
         return photosBetweenDates;
     }
 
@@ -136,6 +163,13 @@ public class AlbumImpl implements Album{
         return date1.isBefore(date2) || date1.isEqual(date2);
     }
 
+    @Override
+    public Photo[] getAllPhotos() {
+        Photo[] allPhotos = new Photo[size];
+        System.arraycopy(photos, 0, allPhotos, 0, size);
+        return allPhotos;
+    }
+
 
 
     @Override
@@ -143,5 +177,12 @@ public class AlbumImpl implements Album{
         return size;
     }
 }
+
+
+
+
+
+
+
 
 
