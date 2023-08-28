@@ -14,6 +14,7 @@ public class ToDoListAppl {
         ToDoListImpl toDoList = new ToDoListImpl(10);
 
         // TODO - read file
+        toDoList.readTask();
 
         // начало цикла
         while (true) {

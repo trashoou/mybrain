@@ -4,6 +4,7 @@ package practice.todo_v2.dao;
 
 import practice.todo_v2.model.Task;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public interface ToDoList {
@@ -23,6 +24,8 @@ public interface ToDoList {
     int quantity();
 
     void saveTasks() throws IOException;
+
+    void readTask() throws IOException;
 
     // read tasks from file
 

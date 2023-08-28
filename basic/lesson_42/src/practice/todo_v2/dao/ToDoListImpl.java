@@ -3,9 +3,7 @@ package practice.todo_v2.dao;
 
 import practice.todo_v2.model.Task;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class ToDoListImpl implements ToDoList{
 
@@ -91,10 +89,21 @@ public class ToDoListImpl implements ToDoList{
         bfWriter.flush();
     }
 
-    //TODO - add method saveTasks()
+    public void readTask() throws IOException {
+        //TODO - add method readTasks()
+        // задачи надо считывать тоже в цикле по строкам
+        // строку надо превратить в объект task: номер строки - это id, а то, что стоит после ":" - это содержание задачи
+        BufferedReader bfReader = new BufferedReader(new FileReader(INPUT));
+        String str;
+        int countTasks = 0;
+        while ( (str = bfReader.readLine()) != null) {
+            int index = str.indexOf(':'); // нашли индекс символа ":"
+            String t = str.substring(index+1,str.length()).trim(); // "выкусили" из строки тест после ":" и до конца строки
+            Task task = new Task(t); // создали новый объект класса Task
+            tasks[countTasks++] = task; // поместили эту задачу в массив + увеличели счетчик на единицу
+            quantity++;
+        }
 
-
-    //TODO - add method readTasks()
-
+    }
 
 }

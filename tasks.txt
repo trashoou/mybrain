@@ -1,0 +1,4 @@
+1 :  train
+2 :  sleep
+3 :  work
+4 : mkmok
