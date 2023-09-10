@@ -55,7 +55,7 @@ public class Bus implements Comparable<Bus> {
                 ", regNumber='" + regNumber + '\'' +
                 ", route='" + route + '\'' +
                 ", capacity=" + capacity +
-                '}';
+                '}' ;
     }
 
     @Override
