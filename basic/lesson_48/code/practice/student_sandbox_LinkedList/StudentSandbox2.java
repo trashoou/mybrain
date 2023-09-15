@@ -2,6 +2,8 @@ package practice.student_sandbox_LinkedList;
 
 import practice.city_bus.BusStopNode;
 
+import java.util.LinkedList;
+
 public class StudentSandbox2 {
     // разбор LinkedList
     public static void main(String[] args) {
@@ -30,6 +32,8 @@ public class StudentSandbox2 {
             System.out.println(node.getStopName());
             node = node.getNext();
         }
+
+        LinkedList t = new LinkedList<>();
 
 //        BusStopNode node = berlin;
 //        for (int i = 0; i < 4; i++) {
