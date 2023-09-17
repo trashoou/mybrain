@@ -135,20 +135,10 @@ public class SetPractice {
     }
 
     public static Set<String> unknown(Set<String> set1, Set<String> set2) {
-        Set<String> result = new HashSet<>();
+        Set<String> result = new HashSet<>(set1); // Создаем копию первого множества
 
-        Iterator<String> iterator = set2.iterator();
-        Iterator<String> iterator1 = set1.iterator();
-        while (iterator1.hasNext()) {
-            String addElement = iterator.next();
-            while (iterator.hasNext()) {
-                String element = iterator.next();
+        result.removeAll(set2); // Удаляем из копии элементы, которые есть во втором множестве
 
-                if (!set1.contains(element)) {
-                    result.add(addElement);
-                }
-            }
-        }
         return result;
     }
 }
