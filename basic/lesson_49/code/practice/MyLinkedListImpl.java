@@ -8,7 +8,11 @@ public class MyLinkedListImpl implements MyLinkedList {
     private Node tail;
     private int size;
 
-
+    public MyLinkedListImpl() {
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+    }
 
     @Override
     public boolean add(String data) {
@@ -178,6 +182,36 @@ public class MyLinkedListImpl implements MyLinkedList {
         return null;
     }
 
+    @Override
+    public MyLinkedListImpl reverseLinkedList(int startIndex, int endIndex) {
+        if (startIndex < 0 || endIndex > size || startIndex >= endIndex) {
+            throw new IndexOutOfBoundsException();
+        }
+        Node startNode = get(startIndex);
+
+        Node prev = null;
+        Node current = startNode;
+
+        for (int i = startIndex; i < endIndex; i++) {
+            Node next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+
+        if (startIndex == 0) {
+            head = prev;
+        } else {
+            startNode.next = prev;
+        }
+
+        if (startIndex == 0) {
+            get(endIndex - 1).next = current;
+        } else {
+            startNode.next = current;
+        }
+        return this;
+    }
 
 
     public static class Node {
@@ -191,4 +225,19 @@ public class MyLinkedListImpl implements MyLinkedList {
             this.next = next;
         }
     }
+
+    public Object[] toArray() {
+        Object[] array = new Object[size];
+        Node current = head;
+        int index = 0;
+
+        while (current != null) {
+            array[index] = current.data;
+            current = current.next;
+            index++;
+        }
+
+        return array;
+    }
+
 }

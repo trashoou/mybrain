@@ -1,9 +1,6 @@
 package practice;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class SetPractice {
     public static void main(String[] args) {
@@ -109,8 +106,49 @@ public class SetPractice {
 
     // Задача 2. Разность множеств: Создайте метод, который принимает два множества и возвращает новое множество,
     // содержащее только уникальные элементы из двух сетов (не совпадающие)
-    public static Set<String> uniqueElement(Set<String> first, Set<String> second) {
-        //ваш код тут
-        return null;
+    public static Set<String> uniqueElement(Set<String> set1, Set<String> set2) {
+        // Создаем множество для хранения результата
+        Set<String> result = new HashSet<>();
+
+        // Используем итератор для перебора элементов первого множества
+        Iterator<String> iterator = set1.iterator();
+        Iterator<String> secondIterator = set2.iterator();
+
+        // Перебираем каждый элемент первого множества
+        while (iterator.hasNext()) {
+            // Сохраняем текущий элемент в переменной
+            String element = iterator.next();
+
+            if (!set2.contains(element)) {
+                result.add(element);
+            }
+        }
+        while (secondIterator.hasNext()) {
+            String set2_Element = iterator.next();
+
+            if (!set1.contains(set2_Element)) {
+                result.add(set2_Element);
+            }
+        }
+
+        return result;
+    }
+
+    public static Set<String> unknown(Set<String> set1, Set<String> set2) {
+        Set<String> result = new HashSet<>();
+
+        Iterator<String> iterator = set2.iterator();
+        Iterator<String> iterator1 = set1.iterator();
+        while (iterator1.hasNext()) {
+            String addElement = iterator.next();
+            while (iterator.hasNext()) {
+                String element = iterator.next();
+
+                if (!set1.contains(element)) {
+                    result.add(addElement);
+                }
+            }
+        }
+        return result;
     }
 }

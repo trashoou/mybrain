@@ -83,9 +83,10 @@ public class SetPractice {
 
     // Задача 2. Разность множеств: Создайте метод, который принимает два множества и возвращает новое множество,
     // содержащее только уникальные элементы из двух сетов (не совпадающие)
-    public static Set<String> uniqueElement(Set<String> first, Set<String> second) {
-        //ваш код тут
-        return null;
+    public static <T> Set<T> intersection(Set<T> set1, Set<T> set2) {
+        Set<T> result = new HashSet<>(set1);
+        result.retainAll(set2);
+        return result;
     }
 
 
