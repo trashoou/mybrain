@@ -17,6 +17,11 @@ public class MyLinkedListImpl implements MyLinkedList {
     @Override
     public boolean add(String data) {
         Node newNode = new Node(data, tail, null);
+        if (size == 0) {
+            this.head = newNode;
+            this.tail = newNode;
+
+        }
         this.tail.next = newNode;
         this.tail = newNode;
 
@@ -179,7 +184,7 @@ public class MyLinkedListImpl implements MyLinkedList {
 
         MyLinkedListImpl reversedList = reverseLinkedList();
 
-        return null;
+        return this;
     }
 
     @Override

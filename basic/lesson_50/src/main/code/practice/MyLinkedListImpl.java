@@ -9,6 +9,7 @@ public class MyLinkedListImpl implements MyLinkedList {
 
     // Вложенный класс для узла списка
     private static class Node {
+
         String data;  // Данные, хранящиеся в узле
         Node prev;    // Указатель на предыдущий узел
         Node next;    // Указатель на следующий узел
@@ -281,7 +282,6 @@ public class MyLinkedListImpl implements MyLinkedList {
         return index;
     }
 
-
     /**
      * Вспомогательный метод для получения узла по индексу
      *
@@ -289,7 +289,7 @@ public class MyLinkedListImpl implements MyLinkedList {
      * @return узел, находящийся на данном индексе.
      * @throws IndexOutOfBoundsException если индекс вне диапазона списка.
      */
-    private Node getNode(int index) throws IndexOutOfBoundsException {
+    public Node getNode(int index) throws IndexOutOfBoundsException {
         // Проверяем, попадает ли индекс в допустимый диапазон
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Invalid index");
@@ -306,9 +306,6 @@ public class MyLinkedListImpl implements MyLinkedList {
         // Возвращаем найденный узел
         return current;
     }
-
-
-
 
     // Метод для переворота всего списка
     public MyLinkedList reverseLinkedList() {
@@ -349,15 +346,16 @@ public class MyLinkedListImpl implements MyLinkedList {
         }
 
         // Переворачиваем новый список
-        MyLinkedList reversedList = reverseLinkedList();
+        reversedPart.reverseLinkedList();
 
         // Заменяем часть оригинального списка на перевернутую
         Node replaceNode = getNode(startIndex - 1);
         replaceNode.next = reversedPart.head;
         reversedPart.tail.next = null;
 
-        return this;
+        return reversedPart; // Возвращаем перевернутую часть списка
     }
+
 
     // Метод для переворота списка между двумя индексами
     public MyLinkedList reverseLinkedList(int startIndex, int endIndex) {
@@ -399,6 +397,4 @@ public class MyLinkedListImpl implements MyLinkedList {
 
         return this;
     }
-
-
 }
