@@ -64,9 +64,12 @@ public class AttendanceTracker {
     public static void main(String[] args) {
         AttendanceTracker tracker = new AttendanceTracker();
 
+
+
         // Добавление учеников
         tracker.addStudent("Alice");
         tracker.addStudent("Bob");
+
 
         // Добавление дат уроков
         tracker.addLessonDate(LocalDate.of(2023, 9, 1));
@@ -82,5 +85,8 @@ public class AttendanceTracker {
         tracker.printAllAttendance();
         tracker.printStudentAttendance("Alice");
         tracker.printStudentAttendance("Charlie"); // Ученик с именем "Charlie" не существует
+
+
     }
+
 }
