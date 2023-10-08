@@ -1,8 +1,8 @@
-package teacher_code;
+package student_code;
 
-
-public class TeacherCode {
+public class StudentCode {
     public static void main(String[] args) {
+
 
     }
 }
