@@ -14,9 +14,12 @@
         <module name="lesson_54" />
         <module name="lesson_53" />
         <module name="lesson_52" />
-        <module name="set-intersection-example" />
+        <module name="lesson_63" />
         <module name="lesson_51" />
+        <module name="lesson_62" />
+        <module name="lesson_61" />
         <module name="lesson_60" />
+        <module name="set-intersection-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
