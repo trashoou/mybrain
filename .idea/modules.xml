@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CinemaProjekt.iml" filepath="$PROJECT_DIR$/CinemaProjekt.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/baymunic/baymunic.iml" filepath="$PROJECT_DIR$/basic/baymunic/baymunic.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/lesson_04/code/code.iml" filepath="$PROJECT_DIR$/basic/lesson_04/code/code.iml" />
@@ -68,6 +69,7 @@
       <module fileurl="file://$PROJECT_DIR$/lesson_61.iml" filepath="$PROJECT_DIR$/lesson_61.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_62.iml" filepath="$PROJECT_DIR$/lesson_62.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_63.iml" filepath="$PROJECT_DIR$/lesson_63.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_64.iml" filepath="$PROJECT_DIR$/lesson_64.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/notepad/notepad.iml" filepath="$PROJECT_DIR$/basic/notepad/notepad.iml" />
     </modules>
   </component>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CinemaProjekt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CinemaProjekt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/lesson_51/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/lesson_51/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/lesson_52/src/main/java" charset="UTF-8" />
@@ -27,6 +29,8 @@
     <file url="file://$PROJECT_DIR$/basic/lesson_62/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/lesson_63/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/lesson_63/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic/lesson_64/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic/lesson_64/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/maven/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/maven/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic/maven1/src/main/java" charset="UTF-8" />

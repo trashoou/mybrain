@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lesson_59" />
+        <module name="CinemaProjekt" />
         <module name="lesson_58" />
         <module name="lesson_57" />
         <module name="lesson_56" />
         <module name="lesson_55" />
         <module name="lesson_54" />
         <module name="lesson_53" />
+        <module name="lesson_64" />
         <module name="lesson_52" />
         <module name="lesson_63" />
         <module name="lesson_51" />
